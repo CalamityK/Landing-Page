@@ -1,5 +1,4 @@
 .header {
-    background-color: #1f2937;
     display: flex;
     align-items: center;
     width: 100%;
@@ -11,7 +10,7 @@ h3 {
     color: #f9faf8;
 }
 
-a {
+a, .hero-secondary-text {
     size: 18px;
     color: #e5e7eb;
 }
@@ -21,4 +20,56 @@ a {
     justify-self: flex-end;
     justify-content: space-evenly;
     width: 400px;
+}
+
+.get-along-background {
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 49px;
+    font-weight: bolder;
+    color: #f9faf8;
+    overflow-wrap: normal;
+    width: 500px;
+    margin: 0%;
+}
+
+.hero-button {
+    background-color: #3883f6;
+    color: #e5e7eb;
+    size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.hero-secondary-text {
+    overflow-wrap: normal;
+    width: 450px;
+    margin: 5px;
+}
+
+.hero-img {
+    background-color: #5a5959;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    line-height: 200px;
+    color: #e5e7eb;
 }
