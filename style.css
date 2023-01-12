@@ -109,3 +109,30 @@ h2 {
     text-align: center;
     margin-top: 0%;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote-p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    overflow-wrap: normal;
+    width: 1000px;
+    margin: 0%;
+}
+
+.quote-information {
+    font-weight: bold;
+    margin-top: 0%;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 750px;
+}
