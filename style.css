@@ -174,3 +174,15 @@ h4 {
 p.call-text {
     margin-top: 0%;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 20px 5px;
+}
