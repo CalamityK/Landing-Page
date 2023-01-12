@@ -1,8 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 1500px;
     justify-content: space-around;
+    align-self: center;
 }
 
 h3 {
@@ -10,7 +15,7 @@ h3 {
     color: #f9faf8;
 }
 
-a, .hero-secondary-text {
+a, .hero-secondary-text, .call-text {
     size: 18px;
     color: #e5e7eb;
 }
@@ -25,6 +30,8 @@ a, .hero-secondary-text {
 .get-along-background {
     background-color: #1f2937;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -135,4 +142,35 @@ h2 {
     font-size: 20px;
     text-align: right;
     margin-left: 750px;
+}
+
+.call {
+    background-color: #3883f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    align-self: center;
+    height: 100px;
+    margin: 75px;
+    border-radius: 10px;
+}
+
+.call-button {
+    border-color: #e5e7eb;
+    background-color: #3883f6;
+    color: #e5e7eb;
+    size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+h4 {
+    margin-bottom: 0%;
+}
+
+p.call-text {
+    margin-top: 0%;
 }
